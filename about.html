@@ -29,54 +29,34 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html">Jacqueline Solorzano</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/"
-                  title="Homepage"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/about.html"
-                  title="About Jacqueline Solorzano"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/work.html" title="My Work">Work</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/contact.html"
-                  title="Contact Jacqueline Solorzano"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="images/logo.png"
+            alt="SheCodes Logo"
+            class="logo d-none d-sm-block"
+        /></a>
+        <a href="/">
+          <img
+            src="images/icon.jpeg"
+            alt="SheCodes Icon"
+            class="logo d-block d-sm-none"
+        /></a>
+        <ul>
+          <li class="active">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
       </nav>
     </div>
     <div class="content-container container">
